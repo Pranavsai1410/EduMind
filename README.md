@@ -18,9 +18,9 @@
 
 ## 🏗️ Project Structure
 
-edumind/
-├── edumind-fr/ # Frontend (Next.js + Tailwind CSS + TypeScript)
-└── edumind-bk/ # Backend (Flask + AI + Document Parsing)
+### edumind
+─ edumind-fr/ # Frontend (Next.js + Tailwind CSS + TypeScript)
+─ edumind-bk/ # Backend (Flask + AI + Document Parsing)
 
 markdown
 Copy
@@ -60,7 +60,7 @@ ollama pull mistral:7b
 bash
 Copy
 Edit
-git clone https://github.com/YourGitHubUsername/edumind.git
+git clone https://github.com/Pranavsai1410/EduMind.git
 cd edumind
 Replace YourGitHubUsername with your actual GitHub username.
 
