@@ -10,9 +10,9 @@
   - Multiple Choice Questions (MCQs)
   - True/False Questions
   - Fill-in-the-Blank Questions
-- 🧠 **AI-Powered**: Utilizes the `mistral:7b` model via `langchain_ollama` to generate contextually accurate questions.
-- 🖱️ **Interactive Quiz-Taking**: Take quizzes in a sleek, responsive interface with real-time feedback.
-- ⚙️ **Modular Architecture**: Separate **Next.js frontend** and **Flask backend** for easier scalability and maintenance.
+- 🧠 **AI-Chat**: Utilizes the `mistral:7b` model via `langchain_ollama` to chat and solve doubts.
+- 🖱️ **Summarization**: Takes pdf/word documents and explain the whole thing in one or two paragraphs.
+- ⚙️ **Search**: There are uploaded pdfs which can be refered and downloaded to their own local storage.
 
 ---
 
