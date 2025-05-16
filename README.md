@@ -12,9 +12,43 @@
   - Fill-in-the-Blank Questions
 - 🧠 **AI-Chat**: Utilizes the `mistral:7b` model via `langchain_ollama` to chat and solve doubts.
 - 🖱️ **Summarization**: Takes pdf/word documents and explain the whole thing in one or two paragraphs.
-- ⚙️ **Search**: There are uploaded pdfs which can be refered and downloaded to their own local storage.
+- ⚙️ **Search**: There are uploaded pdfs which can be referred and downloaded to their own local storage.
 
 ---
+
+## 🖼️ Screenshots
+
+### 🔐 Login Page
+![Login Page](https://github.com/Pranavsai1410/EduMind/blob/main/assests/Screenshot%202025-04-25%20121731.png)
+
+### 📝 Register Page
+![Register Page](https://github.com/Pranavsai1410/EduMind/blob/main/assests/Screenshot%202025-04-25%20121843.png)
+
+### 🏠 Dashboard
+![Dashboard](https://github.com/Pranavsai1410/EduMind/blob/main/assests/Screenshot%202025-04-25%20121925.png)
+
+### 🤖 AI Chat
+![AI Chat](https://github.com/Pranavsai1410/EduMind/blob/main/assests/Screenshot%202025-04-25%20122011.png)
+
+### 📄 Quiz Page
+![Quiz Page](https://github.com/Pranavsai1410/EduMind/blob/main/assests/Screenshot%202025-04-25%20122053.png)
+![Quiz Questions](https://github.com/Pranavsai1410/EduMind/blob/main/assests/Screenshot%202025-04-25%20122120.png)
+
+### ✅ Quiz Results
+![Quiz Results](https://github.com/Pranavsai1410/EduMind/blob/main/assests/Screenshot%202025-04-25%20140251.png)
+
+### 📚 Summary
+![Summary](https://github.com/Pranavsai1410/EduMind/blob/main/assests/Screenshot%202025-04-25%20122217.png)
+
+### 🔍 Search PDFs
+![Search](https://github.com/Pranavsai1410/EduMind/blob/main/assests/Screenshot%202025-04-25%20122823.png)
+
+---
+
+## 🏗️ Project Structure
+
+### edumind
+
 
 ## 🏗️ Project Structure
 
@@ -34,7 +68,7 @@ Edit
 
 ### 📁 edumind-bk (Backend)
 
-- `grok.py`: Flask app with routes for:
+- `main.py`: Flask app with routes for:
   - Text extraction
   - Quiz generation using Mistral 7B via Ollama
   - Quiz evaluation
